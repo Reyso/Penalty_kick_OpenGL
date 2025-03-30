@@ -1,0 +1,1 @@
+/usr/bin/c++  -std=c++14 CMakeFiles/Football_Penalty_Shooter.dir/main.cpp.o CMakeFiles/Football_Penalty_Shooter.dir/functionalities.cpp.o CMakeFiles/Football_Penalty_Shooter.dir/shapes.cpp.o -o Football_Penalty_Shooter  /usr/lib/x86_64-linux-gnu/libOpenGL.so /usr/lib/x86_64-linux-gnu/libGLX.so /usr/lib/x86_64-linux-gnu/libGLU.so /usr/lib/x86_64-linux-gnu/libglut.so 

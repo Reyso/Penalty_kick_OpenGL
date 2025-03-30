@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/media/rey/Massa 3/UFPA/2024.4/Comp_grafica_process_img/3D/OpenGL-3D-Football-Penalty-Shooter"
+CMAKE_SOURCE_DIR = "/media/rey/Massa 3/UFPA/2024.4/Comp_grafica_process_img/3D/Penalty_kick_OpenGL"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/media/rey/Massa 3/UFPA/2024.4/Comp_grafica_process_img/3D/OpenGL-3D-Football-Penalty-Shooter/build"
+CMAKE_BINARY_DIR = "/media/rey/Massa 3/UFPA/2024.4/Comp_grafica_process_img/3D/Penalty_kick_OpenGL/build"
 
 # Include any dependencies generated for this target.
 include CMakeFiles/Football_Penalty_Shooter.dir/depend.make
@@ -72,44 +72,44 @@ include CMakeFiles/Football_Penalty_Shooter.dir/flags.make
 CMakeFiles/Football_Penalty_Shooter.dir/main.cpp.o: CMakeFiles/Football_Penalty_Shooter.dir/flags.make
 CMakeFiles/Football_Penalty_Shooter.dir/main.cpp.o: ../main.cpp
 CMakeFiles/Football_Penalty_Shooter.dir/main.cpp.o: CMakeFiles/Football_Penalty_Shooter.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/media/rey/Massa 3/UFPA/2024.4/Comp_grafica_process_img/3D/OpenGL-3D-Football-Penalty-Shooter/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Football_Penalty_Shooter.dir/main.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Football_Penalty_Shooter.dir/main.cpp.o -MF CMakeFiles/Football_Penalty_Shooter.dir/main.cpp.o.d -o CMakeFiles/Football_Penalty_Shooter.dir/main.cpp.o -c "/media/rey/Massa 3/UFPA/2024.4/Comp_grafica_process_img/3D/OpenGL-3D-Football-Penalty-Shooter/main.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/media/rey/Massa 3/UFPA/2024.4/Comp_grafica_process_img/3D/Penalty_kick_OpenGL/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Football_Penalty_Shooter.dir/main.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Football_Penalty_Shooter.dir/main.cpp.o -MF CMakeFiles/Football_Penalty_Shooter.dir/main.cpp.o.d -o CMakeFiles/Football_Penalty_Shooter.dir/main.cpp.o -c "/media/rey/Massa 3/UFPA/2024.4/Comp_grafica_process_img/3D/Penalty_kick_OpenGL/main.cpp"
 
 CMakeFiles/Football_Penalty_Shooter.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Football_Penalty_Shooter.dir/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/media/rey/Massa 3/UFPA/2024.4/Comp_grafica_process_img/3D/OpenGL-3D-Football-Penalty-Shooter/main.cpp" > CMakeFiles/Football_Penalty_Shooter.dir/main.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/media/rey/Massa 3/UFPA/2024.4/Comp_grafica_process_img/3D/Penalty_kick_OpenGL/main.cpp" > CMakeFiles/Football_Penalty_Shooter.dir/main.cpp.i
 
 CMakeFiles/Football_Penalty_Shooter.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Football_Penalty_Shooter.dir/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/media/rey/Massa 3/UFPA/2024.4/Comp_grafica_process_img/3D/OpenGL-3D-Football-Penalty-Shooter/main.cpp" -o CMakeFiles/Football_Penalty_Shooter.dir/main.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/media/rey/Massa 3/UFPA/2024.4/Comp_grafica_process_img/3D/Penalty_kick_OpenGL/main.cpp" -o CMakeFiles/Football_Penalty_Shooter.dir/main.cpp.s
 
 CMakeFiles/Football_Penalty_Shooter.dir/functionalities.cpp.o: CMakeFiles/Football_Penalty_Shooter.dir/flags.make
 CMakeFiles/Football_Penalty_Shooter.dir/functionalities.cpp.o: ../functionalities.cpp
 CMakeFiles/Football_Penalty_Shooter.dir/functionalities.cpp.o: CMakeFiles/Football_Penalty_Shooter.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/media/rey/Massa 3/UFPA/2024.4/Comp_grafica_process_img/3D/OpenGL-3D-Football-Penalty-Shooter/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Football_Penalty_Shooter.dir/functionalities.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Football_Penalty_Shooter.dir/functionalities.cpp.o -MF CMakeFiles/Football_Penalty_Shooter.dir/functionalities.cpp.o.d -o CMakeFiles/Football_Penalty_Shooter.dir/functionalities.cpp.o -c "/media/rey/Massa 3/UFPA/2024.4/Comp_grafica_process_img/3D/OpenGL-3D-Football-Penalty-Shooter/functionalities.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/media/rey/Massa 3/UFPA/2024.4/Comp_grafica_process_img/3D/Penalty_kick_OpenGL/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Football_Penalty_Shooter.dir/functionalities.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Football_Penalty_Shooter.dir/functionalities.cpp.o -MF CMakeFiles/Football_Penalty_Shooter.dir/functionalities.cpp.o.d -o CMakeFiles/Football_Penalty_Shooter.dir/functionalities.cpp.o -c "/media/rey/Massa 3/UFPA/2024.4/Comp_grafica_process_img/3D/Penalty_kick_OpenGL/functionalities.cpp"
 
 CMakeFiles/Football_Penalty_Shooter.dir/functionalities.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Football_Penalty_Shooter.dir/functionalities.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/media/rey/Massa 3/UFPA/2024.4/Comp_grafica_process_img/3D/OpenGL-3D-Football-Penalty-Shooter/functionalities.cpp" > CMakeFiles/Football_Penalty_Shooter.dir/functionalities.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/media/rey/Massa 3/UFPA/2024.4/Comp_grafica_process_img/3D/Penalty_kick_OpenGL/functionalities.cpp" > CMakeFiles/Football_Penalty_Shooter.dir/functionalities.cpp.i
 
 CMakeFiles/Football_Penalty_Shooter.dir/functionalities.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Football_Penalty_Shooter.dir/functionalities.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/media/rey/Massa 3/UFPA/2024.4/Comp_grafica_process_img/3D/OpenGL-3D-Football-Penalty-Shooter/functionalities.cpp" -o CMakeFiles/Football_Penalty_Shooter.dir/functionalities.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/media/rey/Massa 3/UFPA/2024.4/Comp_grafica_process_img/3D/Penalty_kick_OpenGL/functionalities.cpp" -o CMakeFiles/Football_Penalty_Shooter.dir/functionalities.cpp.s
 
 CMakeFiles/Football_Penalty_Shooter.dir/shapes.cpp.o: CMakeFiles/Football_Penalty_Shooter.dir/flags.make
 CMakeFiles/Football_Penalty_Shooter.dir/shapes.cpp.o: ../shapes.cpp
 CMakeFiles/Football_Penalty_Shooter.dir/shapes.cpp.o: CMakeFiles/Football_Penalty_Shooter.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/media/rey/Massa 3/UFPA/2024.4/Comp_grafica_process_img/3D/OpenGL-3D-Football-Penalty-Shooter/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Football_Penalty_Shooter.dir/shapes.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Football_Penalty_Shooter.dir/shapes.cpp.o -MF CMakeFiles/Football_Penalty_Shooter.dir/shapes.cpp.o.d -o CMakeFiles/Football_Penalty_Shooter.dir/shapes.cpp.o -c "/media/rey/Massa 3/UFPA/2024.4/Comp_grafica_process_img/3D/OpenGL-3D-Football-Penalty-Shooter/shapes.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/media/rey/Massa 3/UFPA/2024.4/Comp_grafica_process_img/3D/Penalty_kick_OpenGL/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Football_Penalty_Shooter.dir/shapes.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Football_Penalty_Shooter.dir/shapes.cpp.o -MF CMakeFiles/Football_Penalty_Shooter.dir/shapes.cpp.o.d -o CMakeFiles/Football_Penalty_Shooter.dir/shapes.cpp.o -c "/media/rey/Massa 3/UFPA/2024.4/Comp_grafica_process_img/3D/Penalty_kick_OpenGL/shapes.cpp"
 
 CMakeFiles/Football_Penalty_Shooter.dir/shapes.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Football_Penalty_Shooter.dir/shapes.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/media/rey/Massa 3/UFPA/2024.4/Comp_grafica_process_img/3D/OpenGL-3D-Football-Penalty-Shooter/shapes.cpp" > CMakeFiles/Football_Penalty_Shooter.dir/shapes.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/media/rey/Massa 3/UFPA/2024.4/Comp_grafica_process_img/3D/Penalty_kick_OpenGL/shapes.cpp" > CMakeFiles/Football_Penalty_Shooter.dir/shapes.cpp.i
 
 CMakeFiles/Football_Penalty_Shooter.dir/shapes.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Football_Penalty_Shooter.dir/shapes.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/media/rey/Massa 3/UFPA/2024.4/Comp_grafica_process_img/3D/OpenGL-3D-Football-Penalty-Shooter/shapes.cpp" -o CMakeFiles/Football_Penalty_Shooter.dir/shapes.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/media/rey/Massa 3/UFPA/2024.4/Comp_grafica_process_img/3D/Penalty_kick_OpenGL/shapes.cpp" -o CMakeFiles/Football_Penalty_Shooter.dir/shapes.cpp.s
 
 # Object files for target Football_Penalty_Shooter
 Football_Penalty_Shooter_OBJECTS = \
@@ -129,7 +129,7 @@ Football_Penalty_Shooter: /usr/lib/x86_64-linux-gnu/libGLX.so
 Football_Penalty_Shooter: /usr/lib/x86_64-linux-gnu/libGLU.so
 Football_Penalty_Shooter: /usr/lib/x86_64-linux-gnu/libglut.so
 Football_Penalty_Shooter: CMakeFiles/Football_Penalty_Shooter.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/media/rey/Massa 3/UFPA/2024.4/Comp_grafica_process_img/3D/OpenGL-3D-Football-Penalty-Shooter/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable Football_Penalty_Shooter"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/media/rey/Massa 3/UFPA/2024.4/Comp_grafica_process_img/3D/Penalty_kick_OpenGL/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable Football_Penalty_Shooter"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Football_Penalty_Shooter.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -141,6 +141,6 @@ CMakeFiles/Football_Penalty_Shooter.dir/clean:
 .PHONY : CMakeFiles/Football_Penalty_Shooter.dir/clean
 
 CMakeFiles/Football_Penalty_Shooter.dir/depend:
-	cd "/media/rey/Massa 3/UFPA/2024.4/Comp_grafica_process_img/3D/OpenGL-3D-Football-Penalty-Shooter/build" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/media/rey/Massa 3/UFPA/2024.4/Comp_grafica_process_img/3D/OpenGL-3D-Football-Penalty-Shooter" "/media/rey/Massa 3/UFPA/2024.4/Comp_grafica_process_img/3D/OpenGL-3D-Football-Penalty-Shooter" "/media/rey/Massa 3/UFPA/2024.4/Comp_grafica_process_img/3D/OpenGL-3D-Football-Penalty-Shooter/build" "/media/rey/Massa 3/UFPA/2024.4/Comp_grafica_process_img/3D/OpenGL-3D-Football-Penalty-Shooter/build" "/media/rey/Massa 3/UFPA/2024.4/Comp_grafica_process_img/3D/OpenGL-3D-Football-Penalty-Shooter/build/CMakeFiles/Football_Penalty_Shooter.dir/DependInfo.cmake" --color=$(COLOR)
+	cd "/media/rey/Massa 3/UFPA/2024.4/Comp_grafica_process_img/3D/Penalty_kick_OpenGL/build" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/media/rey/Massa 3/UFPA/2024.4/Comp_grafica_process_img/3D/Penalty_kick_OpenGL" "/media/rey/Massa 3/UFPA/2024.4/Comp_grafica_process_img/3D/Penalty_kick_OpenGL" "/media/rey/Massa 3/UFPA/2024.4/Comp_grafica_process_img/3D/Penalty_kick_OpenGL/build" "/media/rey/Massa 3/UFPA/2024.4/Comp_grafica_process_img/3D/Penalty_kick_OpenGL/build" "/media/rey/Massa 3/UFPA/2024.4/Comp_grafica_process_img/3D/Penalty_kick_OpenGL/build/CMakeFiles/Football_Penalty_Shooter.dir/DependInfo.cmake" --color=$(COLOR)
 .PHONY : CMakeFiles/Football_Penalty_Shooter.dir/depend
 

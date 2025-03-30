@@ -1,4 +1,4 @@
-/media/rey/Massa 3/UFPA/2024.4/Comp_grafica_process_img/3D/OpenGL-3D-Football-Penalty-Shooter/build/CMakeFiles/Football_Penalty_Shooter.dir
-/media/rey/Massa 3/UFPA/2024.4/Comp_grafica_process_img/3D/OpenGL-3D-Football-Penalty-Shooter/build/CMakeFiles/run.dir
-/media/rey/Massa 3/UFPA/2024.4/Comp_grafica_process_img/3D/OpenGL-3D-Football-Penalty-Shooter/build/CMakeFiles/edit_cache.dir
-/media/rey/Massa 3/UFPA/2024.4/Comp_grafica_process_img/3D/OpenGL-3D-Football-Penalty-Shooter/build/CMakeFiles/rebuild_cache.dir
+/media/rey/Massa 3/UFPA/2024.4/Comp_grafica_process_img/3D/Penalty_kick_OpenGL/build/CMakeFiles/Football_Penalty_Shooter.dir
+/media/rey/Massa 3/UFPA/2024.4/Comp_grafica_process_img/3D/Penalty_kick_OpenGL/build/CMakeFiles/run.dir
+/media/rey/Massa 3/UFPA/2024.4/Comp_grafica_process_img/3D/Penalty_kick_OpenGL/build/CMakeFiles/edit_cache.dir
+/media/rey/Massa 3/UFPA/2024.4/Comp_grafica_process_img/3D/Penalty_kick_OpenGL/build/CMakeFiles/rebuild_cache.dir

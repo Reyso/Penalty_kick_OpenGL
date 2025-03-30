@@ -54,10 +54,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/media/rey/Massa 3/UFPA/2024.4/Comp_grafica_process_img/3D/OpenGL-3D-Football-Penalty-Shooter"
+CMAKE_SOURCE_DIR = "/media/rey/Massa 3/UFPA/2024.4/Comp_grafica_process_img/3D/Penalty_kick_OpenGL"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/media/rey/Massa 3/UFPA/2024.4/Comp_grafica_process_img/3D/OpenGL-3D-Football-Penalty-Shooter/build"
+CMAKE_BINARY_DIR = "/media/rey/Massa 3/UFPA/2024.4/Comp_grafica_process_img/3D/Penalty_kick_OpenGL/build"
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -82,14 +82,14 @@ clean: CMakeFiles/run.dir/clean
 CMakeFiles/Football_Penalty_Shooter.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Football_Penalty_Shooter.dir/build.make CMakeFiles/Football_Penalty_Shooter.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Football_Penalty_Shooter.dir/build.make CMakeFiles/Football_Penalty_Shooter.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/media/rey/Massa 3/UFPA/2024.4/Comp_grafica_process_img/3D/OpenGL-3D-Football-Penalty-Shooter/build/CMakeFiles" --progress-num=1,2,3,4 "Built target Football_Penalty_Shooter"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/media/rey/Massa 3/UFPA/2024.4/Comp_grafica_process_img/3D/Penalty_kick_OpenGL/build/CMakeFiles" --progress-num=1,2,3,4 "Built target Football_Penalty_Shooter"
 .PHONY : CMakeFiles/Football_Penalty_Shooter.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/Football_Penalty_Shooter.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/media/rey/Massa 3/UFPA/2024.4/Comp_grafica_process_img/3D/OpenGL-3D-Football-Penalty-Shooter/build/CMakeFiles" 4
+	$(CMAKE_COMMAND) -E cmake_progress_start "/media/rey/Massa 3/UFPA/2024.4/Comp_grafica_process_img/3D/Penalty_kick_OpenGL/build/CMakeFiles" 4
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/Football_Penalty_Shooter.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/media/rey/Massa 3/UFPA/2024.4/Comp_grafica_process_img/3D/OpenGL-3D-Football-Penalty-Shooter/build/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/media/rey/Massa 3/UFPA/2024.4/Comp_grafica_process_img/3D/Penalty_kick_OpenGL/build/CMakeFiles" 0
 .PHONY : CMakeFiles/Football_Penalty_Shooter.dir/rule
 
 # Convenience name for target.
@@ -108,14 +108,14 @@ CMakeFiles/Football_Penalty_Shooter.dir/clean:
 CMakeFiles/run.dir/all: CMakeFiles/Football_Penalty_Shooter.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/run.dir/build.make CMakeFiles/run.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/run.dir/build.make CMakeFiles/run.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/media/rey/Massa 3/UFPA/2024.4/Comp_grafica_process_img/3D/OpenGL-3D-Football-Penalty-Shooter/build/CMakeFiles" --progress-num= "Built target run"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/media/rey/Massa 3/UFPA/2024.4/Comp_grafica_process_img/3D/Penalty_kick_OpenGL/build/CMakeFiles" --progress-num= "Built target run"
 .PHONY : CMakeFiles/run.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/run.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/media/rey/Massa 3/UFPA/2024.4/Comp_grafica_process_img/3D/OpenGL-3D-Football-Penalty-Shooter/build/CMakeFiles" 4
+	$(CMAKE_COMMAND) -E cmake_progress_start "/media/rey/Massa 3/UFPA/2024.4/Comp_grafica_process_img/3D/Penalty_kick_OpenGL/build/CMakeFiles" 4
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/run.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/media/rey/Massa 3/UFPA/2024.4/Comp_grafica_process_img/3D/OpenGL-3D-Football-Penalty-Shooter/build/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/media/rey/Massa 3/UFPA/2024.4/Comp_grafica_process_img/3D/Penalty_kick_OpenGL/build/CMakeFiles" 0
 .PHONY : CMakeFiles/run.dir/rule
 
 # Convenience name for target.

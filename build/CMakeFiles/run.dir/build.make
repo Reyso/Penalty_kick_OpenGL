@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/media/rey/Massa 3/UFPA/2024.4/Comp_grafica_process_img/3D/OpenGL-3D-Football-Penalty-Shooter"
+CMAKE_SOURCE_DIR = "/media/rey/Massa 3/UFPA/2024.4/Comp_grafica_process_img/3D/Penalty_kick_OpenGL"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/media/rey/Massa 3/UFPA/2024.4/Comp_grafica_process_img/3D/OpenGL-3D-Football-Penalty-Shooter/build"
+CMAKE_BINARY_DIR = "/media/rey/Massa 3/UFPA/2024.4/Comp_grafica_process_img/3D/Penalty_kick_OpenGL/build"
 
 # Utility rule file for run.
 
@@ -82,6 +82,6 @@ CMakeFiles/run.dir/clean:
 .PHONY : CMakeFiles/run.dir/clean
 
 CMakeFiles/run.dir/depend:
-	cd "/media/rey/Massa 3/UFPA/2024.4/Comp_grafica_process_img/3D/OpenGL-3D-Football-Penalty-Shooter/build" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/media/rey/Massa 3/UFPA/2024.4/Comp_grafica_process_img/3D/OpenGL-3D-Football-Penalty-Shooter" "/media/rey/Massa 3/UFPA/2024.4/Comp_grafica_process_img/3D/OpenGL-3D-Football-Penalty-Shooter" "/media/rey/Massa 3/UFPA/2024.4/Comp_grafica_process_img/3D/OpenGL-3D-Football-Penalty-Shooter/build" "/media/rey/Massa 3/UFPA/2024.4/Comp_grafica_process_img/3D/OpenGL-3D-Football-Penalty-Shooter/build" "/media/rey/Massa 3/UFPA/2024.4/Comp_grafica_process_img/3D/OpenGL-3D-Football-Penalty-Shooter/build/CMakeFiles/run.dir/DependInfo.cmake" --color=$(COLOR)
+	cd "/media/rey/Massa 3/UFPA/2024.4/Comp_grafica_process_img/3D/Penalty_kick_OpenGL/build" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/media/rey/Massa 3/UFPA/2024.4/Comp_grafica_process_img/3D/Penalty_kick_OpenGL" "/media/rey/Massa 3/UFPA/2024.4/Comp_grafica_process_img/3D/Penalty_kick_OpenGL" "/media/rey/Massa 3/UFPA/2024.4/Comp_grafica_process_img/3D/Penalty_kick_OpenGL/build" "/media/rey/Massa 3/UFPA/2024.4/Comp_grafica_process_img/3D/Penalty_kick_OpenGL/build" "/media/rey/Massa 3/UFPA/2024.4/Comp_grafica_process_img/3D/Penalty_kick_OpenGL/build/CMakeFiles/run.dir/DependInfo.cmake" --color=$(COLOR)
 .PHONY : CMakeFiles/run.dir/depend
 

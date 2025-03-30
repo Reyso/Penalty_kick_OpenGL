@@ -1,4 +1,4 @@
-# Install script for directory: /media/rey/Massa 3/UFPA/2024.4/Comp_grafica_process_img/3D/OpenGL-3D-Football-Penalty-Shooter
+# Install script for directory: /media/rey/Massa 3/UFPA/2024.4/Comp_grafica_process_img/3D/Penalty_kick_OpenGL
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -50,5 +50,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/media/rey/Massa 3/UFPA/2024.4/Comp_grafica_process_img/3D/OpenGL-3D-Football-Penalty-Shooter/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/media/rey/Massa 3/UFPA/2024.4/Comp_grafica_process_img/3D/Penalty_kick_OpenGL/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
