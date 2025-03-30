@@ -17,6 +17,8 @@ int goalCount, totalTries;
 int mouseX, mouseY;
 bool firstTime = true;
 PhysicalState sphere, *determineSphere = NULL;
+float ballSize = 0.3f;  // Tamanho inicial da bola
+
 
 void handleResize(int w, int h) {
     glViewport(0, 0, w, h);
@@ -84,15 +86,42 @@ ostream &operator<<(ostream &out, PhysicalState &p) {
 }
 
 
+// bool isItGoal(PhysicalState ball) {
+//     if ((ball.positionCurrent.x <= -POLE_RADIUS + POLE_LENGTH / 2) &&
+//         (ball.positionCurrent.x >= +POLE_RADIUS - POLE_LENGTH / 2) &&
+//         (ball.positionCurrent.z <= POLE_HEIGHT) && (ball.positionCurrent.y > GOAL_POST_Y))
+//         {
+//         if (ballSize < 2.0f)
+//         ballSize += 0.02f; // aument the ball size
+//         return true;
+//         }
+//     else
+//         return false;
+
+// }
+
+
+bool goalScored = false;  // Variável de controle para garantir que o gol só aumente o tamanho uma vez.
+
 bool isItGoal(PhysicalState ball) {
     if ((ball.positionCurrent.x <= -POLE_RADIUS + POLE_LENGTH / 2) &&
         (ball.positionCurrent.x >= +POLE_RADIUS - POLE_LENGTH / 2) &&
-        (ball.positionCurrent.z <= POLE_HEIGHT) && (ball.positionCurrent.y > GOAL_POST_Y))
+        (ball.positionCurrent.z <= POLE_HEIGHT) && (ball.positionCurrent.y > GOAL_POST_Y)) {
+        
+        // Aumenta o tamanho da bola em 20% do tamanho atual, até o limite de 3.5f
+        if (!goalScored && ballSize < 3.5f) {
+            ballSize *= 1.2f;  // Aumenta o tamanho da bola em 20%
+            if (ballSize > 3.5f) {
+                ballSize = 3.5f;  // Garante que o tamanho não ultrapasse o limite
+            }
+            std::cout << "Gol! Novo tamanho da bola: " << ballSize << std::endl;
+            goalScored = true;  // Marca que o gol já foi contado para aumento
+        }
         return true;
-    else
-        return false;
-
+    }
+    return false;
 }
+
 
 void backgroundMusicPlayer(int _) {
 

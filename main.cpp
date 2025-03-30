@@ -198,7 +198,8 @@ void draw() {
     glPushMatrix();
     glColor3f(1.0, 1.0, 0.0);
     glTranslatef(sphere.positionCurrent.x, sphere.positionCurrent.y, sphere.positionCurrent.z);
-    glutSolidSphere(BALL_RADIUS, 20, 20);
+    //glutSolidSphere(BALL_RADIUS, 20, 20);
+    glutSolidSphere(ballSize*0.2, 20, 20);
     glPopMatrix();
 
 //    glTranslatef(0,0,0);
@@ -387,9 +388,11 @@ void idle() {
                     scoredGoal = isItGoal(*determineSphere);
                     if (scoredGoal) {
                         Goals++;
+                        ballSize = std::min(ballSize * 1.5f, 3.5f); // Aumenta 20% do tamanho atual, com limite de 3.5f
                         system("paplay resources/goal.wav&");
-                    }
+                        std::cout << "MAIN: Gol! Novo tamanho da bola: " << ballSize << std::endl;
 
+                    }
                     rotateMsg(0);
                     glutTimerFunc(1000 * RESET_TIME, initialiseEverythingCallback, 0);
                     Tries++;
@@ -409,58 +412,20 @@ void handleUpKeypress(unsigned char key, int x, int y) {
 }
 
 void handleSpecialKeypress(int key, int x, int y) {
-//    if (currentMode == ADJUSTING || currentMode == REPLAY) {
-//        switch (key) {
-//            case GLUT_KEY_UP:
-//                sphereCamera.zAngle += 1.0f;
-//                break;
-//            case GLUT_KEY_DOWN:
-//                sphereCamera.zAngle -= 1.0f;
-//                break;
-//            case GLUT_KEY_LEFT:
-//                sphereCamera.xAngle -= 1.0f;
-//                break;
-//            case GLUT_KEY_RIGHT:
-//                sphereCamera.xAngle += 1.0f;
-//                break;
-//        }
-//    }
     if (currentMode == AIMING) {
-//    glTranslatef(36.0, 0, 0);
-//    glScalef(-1.0, 1.0, 1.0);
-//    glColor4f(0.1, 0.1, 0.1, 1.0);
-//    glBegin(GL_QUADS);
-//    glVertex2f(-10.0, -0.2);
-//    glVertex2f(5.0, -0.2);
-//    glVertex2f(5.0, 0.2);
-//    glVertex2f(-10.0, 0.2);
-//    glEnd();
-//    glBegin(GL_TRIANGLES);
-//
-//    glVertex2f(5.0, -0.4);
-//    glVertex2f(8.0, 0.0);
-//    glVertex2f(5.0, 0.4);
-//    glEnd();
-//
-//    glColor3f(0.3, 0.3, 1.0);
-//    glTranslatef(18, 0, 0);
-//    glBegin(GL_LINES);
-//    glVertex2f(-10, 0);
-//    glVertex2f(10.0, 0);
-//    glEnd();
-        const float increment=2.0f;
+        const float increment = 2.0f;
         switch (key) {
             case GLUT_KEY_UP:
-                aimArrow.zAngle += (aimArrow.zAngle>50?0:increment);
+                aimArrow.zAngle += (aimArrow.zAngle > 50 ? 0 : increment);
                 break;
             case GLUT_KEY_DOWN:
-                aimArrow.zAngle -= (aimArrow.zAngle<0.01?0:increment);
+                aimArrow.zAngle -= (aimArrow.zAngle < 0.01 ? 0 : increment);
                 break;
             case GLUT_KEY_LEFT:
-                aimArrow.yAngle -= (aimArrow.yAngle<-60?0:increment);
+                aimArrow.yAngle -= (aimArrow.yAngle < -60 ? 0 : increment);
                 break;
             case GLUT_KEY_RIGHT:
-                aimArrow.yAngle += (aimArrow.yAngle>60?0:increment);
+                aimArrow.yAngle += (aimArrow.yAngle > 60 ? 0 : increment);
                 break;
         }
     }
