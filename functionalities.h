@@ -1,5 +1,5 @@
 //
-// Created by kunal on 3/3/18.
+//
 //
 
 #ifndef FOOTBALL_PENALTY_SHOOTER_FUNCTIONALITIES_H
@@ -16,6 +16,8 @@ using namespace std;
 using namespace std;
 
 extern unsigned int Tries, Goals;
+extern float ballSize;  // Tamanho inicial da bola
+
 
 void handleResize(int w, int h);
 
